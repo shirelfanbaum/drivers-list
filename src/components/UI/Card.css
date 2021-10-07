@@ -1,0 +1,50 @@
+.card {
+  margin: 1rem auto;
+  border-radius: 2px;
+  background-color: white;
+  padding: 1rem;
+  width: 180px;
+  max-width: 40rem;
+  height: 280px;
+  line-height: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+.card div p {
+  white-space: nowrap;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card  p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.9em;
+  white-space: nowrap;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card img {
+  width: 150px;
+  position: relative;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card img.cut {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.card img.svg {
+  width: 50px;
+  height: 50px;
+  z-index:999;
+  margin-left: 100px;
+  justify-content: center;
+  position: absolute;
+  margin-top: -50px;
+
+}

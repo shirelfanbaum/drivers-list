@@ -1,0 +1,7 @@
+.drivers_fleet_container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 300px;
+    justify-content: center;
+    align-items: center;
+}
